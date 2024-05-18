@@ -77,7 +77,7 @@ A web application that integrates Google Maps with markers, user authentication 
 
 ## Folder Structure
 
-GoogleMap-Basic/
+**GoogleMap-Basic/
 │
 ├── server/
 │ ├── models/
@@ -93,7 +93,7 @@ GoogleMap-Basic/
 ├── .env
 ├── .gitignore
 ├── package.json
-└── README.md
+└── README.md**
 
 
 
@@ -102,22 +102,22 @@ GoogleMap-Basic/
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+### Ensure you have the .env file in the root directory
 
 ## Steps to install
-Install Dependencies:
-Ensure you have installed all the required dependencies by running:
-
+####Ensure you have installed all the required dependencies by running:
 
 npm install
-Start the Server:
-Ensure you have the .env file in the root directory.
-Start the server:
 
-
+### Start the server
 cd server
 node server.js
-Open the Application:
+
+
+### Open the Application:
 
 Open your browser and navigate to http://localhost:3000/login.html to see the login page.
+
 Register or log in using the forms.
+
 Alternatively, log in using GitHub or Google.
