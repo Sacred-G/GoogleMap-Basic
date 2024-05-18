@@ -74,28 +74,31 @@ A web application that integrates Google Maps with markers, user authentication 
 7. **Run the application**:
 
     Open your browser and navigate to `http://localhost:3000/login.html` to see the login page. You can register or log in using the forms or authenticate with GitHub or Google.
+```
+## Folder Structure 
+**GoogleMap-Basic**
 
-## Folder Structure
-
-**GoogleMap-Basic/
+GoogleMap-Basic/
 │
-├── server/
-│ ├── models/
-│ │ ├── marker.js
-│ │ └── user.js
-│ └── server.js
-├── public/
-│ ├── index.html
-│ ├── login.html
-│ ├── register.html
-│ ├── styles.css
-│ └── script.js
-├── .env
-├── .gitignore
-├── package.json
-└── README.md**
+├── server/                   # Backend server code
+│   ├── models/               # Database models
+│   │   ├── marker.js         # Marker model
+│   │   └── user.js           # User model
+│   └── server.js             # Main server file
+│
+├── public/                   # Frontend code
+│   ├── index.html            # Main HTML file
+│   ├── login.html            # Login HTML file
+│   ├── register.html         # Register HTML file
+│   ├── styles.css            # CSS file for styling
+│   └── script.js             # JavaScript file for client-side logic
+│
+├── .env                      # Environment variables
+├── .gitignore                # Git ignore file
+├── package.json              # Node.js dependencies and scripts
+└── README.md                 # Project documentation
 
-
+```
 
 
 ## License
